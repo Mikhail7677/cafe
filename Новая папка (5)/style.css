@@ -1,0 +1,243 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #2b1b14;
+    color: #f5f5dc;
+}
+
+.logo {
+            width: 100px; /* Задайте ширину логотипа */
+            height: auto; /* Сохраняет пропорции */
+            position: absolute; /* Позволяет позиционировать элемент относительно родителя */
+            top: 20px; /* Отступ сверху */
+            left: 20px; /* Отступ слева */
+        }
+
+.hero {
+    background: url('images/gll3.png') no-repeat center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu .items, .drinks-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ .menu {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрирует элементы по горизонтали */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px; /* Отступ между кнопками */
+    padding: 10px 20px; /* Внутренние отступы */
+    background-color: white; /* Цвет фона кнопки */
+    color: black; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Скругление углов */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.button:hover {
+    background-color: white; /* Цвет фона при наведении */
+}
+
+.card {
+    background-color: #fff3e0;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    width: 140px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.drinks {
+    background-color: #3a251c;
+    border-top: 2px solid #7b4b32;
+    border-bottom: 2px solid #7b4b32;
+}
+.drinks-grid ul {
+
+    list-style: none;
+    padding: 0 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 60%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #1a0e0a;
+    flex-wrap: wrap;
+    color: #eee;
+}
+
+footer .feedback input,
+footer .feedback textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+footer .feedback button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #2b1b14;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.nav-button {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Центрируем меню */
+    margin: 20px 0;
+}
+
+.button {
+    margin: 0 10px; /* Отступы между кнопками */
+    padding: 10px 20px;
+    background-color: white; /* Цвет фона кнопок */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Закругление углов кнопок */
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрируем карточки */
+    margin: 20px; /* Отступы вокруг контейнера */
+}
+
+.card {
+    text-align: center; /* Центрируем текст в карточке */
+    margin: 15px; /* Отступы между карточками */
+    padding: 20px; /* Внутренние отступы для карточки */
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 10px; /* Закругление углов карточки */
+    width: 200px; /* Ширина карточки */
+    background-color: #f9f9f9; /* Цвет фона карточки */
+}
+
+.card img {
+    display: block; /* Делаем изображение блочным элементом */
+    margin: 0 auto; /* Центрируем изображение */
+    width: 100%; /* Ширина изображения равна ширине карточки */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.card p {
+    font-size: 18px; /* Увеличиваем размер шрифта для текста */
+    margin-top: 10px; /* Отступ сверху для текста */
+}
+
+   .koguvcavis-varazdel {
+            padding: 38px 0;
+            background: #adadad;
+            color: #2f2f2f;
+            text-align: center;
+        }
+        .sestim-donials {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        .sectionesag {
+            width: 195px;
+            height: 3px;
+            background: #498a2d;
+            margin: 23px auto;
+        }
+        .sagestim-lonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .vemotau-vokusipol {
+            flex: 33.33%;
+            max-width: 33.33%;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+        .testimonial {
+            background: #f9f4f4;
+            padding: 28px;
+            border-radius: 8px; /* Добавление скругления углов */
+        }
+        .testimonial img {
+            width: 120px; /* Увеличиваем ширину изображения */
+            height: 120px; /* Увеличиваем высоту изображения */
+            border-radius: 50%;
+        }
+        .gecedanam {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+        .apogered-gselected {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 24px; /* Увеличиваем размер шрифта для звезд */
+        }
+}
+
+@media screen and (max-width:600px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 100%;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+
